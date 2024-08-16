@@ -1,0 +1,6 @@
+white
+black
+zebra
+onion
+worm
+nucleus
