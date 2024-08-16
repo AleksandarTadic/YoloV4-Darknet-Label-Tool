@@ -5,7 +5,7 @@ Install required packages from requirements.txt
 <br />
 Add class names to classes.txt 
 <br />
-Start bbox_tool.py to generate required folders 
+Run bbox_tool.py to generate required folders 
 <br />
 Add images to images folder 
 <br />
