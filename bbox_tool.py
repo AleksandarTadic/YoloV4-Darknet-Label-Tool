@@ -58,7 +58,7 @@ class LabelTool:
 
         # Create labels and output dir
         self.examples_path = "examples"
-        self.examples_path = "images"
+        self.images_path = "images"
         self.labels_path = "labels"
         self.output_path = "output"
         if not os.path.exists(self.examples_path):
