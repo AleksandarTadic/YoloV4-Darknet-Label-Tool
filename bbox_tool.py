@@ -63,8 +63,8 @@ class LabelTool:
         self.output_path = "output"
         if not os.path.exists(self.examples_path):
             os.mkdir(self.examples_path)
-        if not os.path.exists(self.examples_path):
-            os.mkdir(self.examples_path)
+        if not os.path.exists(self.images_path):
+            os.mkdir(self.images_path)
         if not os.path.exists(self.labels_path):
             os.mkdir(self.labels_path)
         if not os.path.exists(self.labels_path + "/" + self.output_path):
