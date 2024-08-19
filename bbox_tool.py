@@ -306,12 +306,12 @@ class LabelTool:
             if cl == self.currentLabelclass:
                 return j
 
+
     def convert(self, size, box):
         dw = 1./size[0]
         dh = 1./size[1]
-        x = int(box[1]) + int(box[2])/2.0
-        y = int(box[3]) + int(box[4])/2.0
-
+        x = (int(box[1]) + int(box[2]))/2.0
+        y = (int(box[3]) + int(box[4]))/2.0
         w = int(box[2]) - int(box[1])
         h = int(box[4]) - int(box[3])
         x = x*dw
